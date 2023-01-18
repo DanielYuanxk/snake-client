@@ -25,5 +25,11 @@ const handleUserInput = function (key) {
   if (key === "\u0064") {
     connection.write("Move: right");
   } // your code here
+  if (key === "\u0070") {
+    connection.write("Say: hi there!");
+  }
+  if (key === "\u006F") {
+    connection.write("Say: time to die!");
+  }
 };
 module.exports = { setupInput };
